@@ -8,10 +8,10 @@ import asyncio
 import asyncpg
 import logging
 from datetime import datetime
+from config import API_TOKEN
 
 logging.basicConfig(level=logging.INFO)
 
-API_TOKEN = '7844462943:AAGUA5YJzwOYo0PJpt-9xU3lBSK2Qop7avc'
 
 # Параметры подключения к базе данных
 user = 'postgres'
